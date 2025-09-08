@@ -85,9 +85,8 @@ The system manages laptop loans and returns, verifies correct laptop placement u
 
 ## Future Improvements
 - Add **WiFi NTP synchronization** for accurate loan/return timestamps.
-- Add **Web dashboard or mobile app** for management.
-- Add **LCD or LED display** for user feedback.
-- Optimize **power management** for solenoids (PWM or timed relay cutoff).
+- Add **HTML page or GUI** for management.
+- Optimize **power management** for solenoids (timed relay cutoff).
 - Expand to more slots using larger MUX/DEMUX configurations.
 
 ---
