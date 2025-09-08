@@ -78,7 +78,7 @@ The system manages laptop loans and returns, verifies correct laptop placement u
 ## Limitations
 - Solenoids consume **high current** if energized too long → can overheat if not managed.
 - Loan/return times in logs currently depend on ESP32’s unsynced clock (not accurate without RTC or WiFi NTP).
-- RFID readers can interfere if multiple cards are left near antennas simultaneously.
+- ID read from RFID reader cannot be verified as a university issued card.
 - Currently controlled via **Serial Monitor** (keyboard input), no GUI yet.
 
 ---
